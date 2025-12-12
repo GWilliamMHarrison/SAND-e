@@ -33,6 +33,7 @@ Required for skipping segmentation: pass `-a` as argument if the input consists 
 `uv run "..\segmentClassifyProject\app\main.py" -i" "..\segmentClassifyProject\input_for_testing\output_Classifier\segmented_grains" -o "..\segmentClassifyProject\input_for_testing\output_Classifier" -s "..\segmentClassifyProject\input_for_testing\model_segmenter" -c "..\segmentClassifyProject\input_for_testing\multiple_models" -a`
 
 # Models to use
-Use the "model_segementer" model for the segmentation, and the 4 models in the "multiple_models" folder for classification.
+Use the "model_segementer" model for the segmentation, and the 4 models in the "classifier_models" folder for classification.
 
 Afterwards, load the outputs into the provided R script.
+
